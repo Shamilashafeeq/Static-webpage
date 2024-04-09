@@ -1,0 +1,27 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom:3px solid blue;   
+    
+}
+
+.textside{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid #d7dbe6;
+    border-radius: 8px;
+}
+.search input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+}

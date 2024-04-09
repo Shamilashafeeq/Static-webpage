@@ -1,0 +1,37 @@
+.App {
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+}
+.sidebar_container{
+ 
+  background-color: blueviolet;
+  width: 300px;
+  height: 100vh;
+  position: sticky;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 30px 0 0 30px;
+
+}
+.logo span{
+  font-size:large;
+  margin-right: 15px;
+}
+.items{
+  margin-top: 40px;
+}
+.navbar_container {
+  width: calc(100% - 300px );
+  height: 100%;
+}
+.image1{
+  padding: 30px 30px 0 30px;
+  align-items: center;
+ 
+}
+
+

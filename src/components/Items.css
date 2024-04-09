@@ -1,0 +1,33 @@
+.list{
+    list-style: none;
+}
+.list li{
+    padding: 15px 0;
+    margin: 8px 0;
+    border-radius: 8px;
+
+}
+.list li:hover{
+    background: #06060658;
+    cursor: 2;
+
+}
+.list li span{
+    color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    
+    font-size: 1.2rem;
+    margin: 0 10px 0 25px;
+}
+.list li a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline;
+    align-items: center;
+    gap: 1.5rem;
+    transition: 0.3s ease;
+    
+}
